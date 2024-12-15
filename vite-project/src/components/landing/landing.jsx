@@ -14,6 +14,10 @@ const landing = () => {
     const handleClick = () => {
       navigate("/sign");
     };
+
+    const reg = () => {
+        navigate("/register");
+      };
   return (
      <div
             className="w-full h-screen p-5 flex justify-around gap-[22rem]"
@@ -34,7 +38,7 @@ const landing = () => {
             </div>
             <div className='flex mt-4 gap-2'>
             <img src={pfp}  className='w-[3vw] h-[4vh]' />
-            <h2 className='text-white mt-2 cursor-pointer font-semibold hover:text-blue-500'>Create Account</h2>
+            <h2 className='text-white mt-2 cursor-pointer font-semibold hover:text-blue-500' onClick={reg} >Create Account</h2>
             </div>
             <div className="absolute inset-0 flex items-center justify-center flex-col gap-7 pointer-events-none">
       <h1 className="text-white text-4xl font-bold text-center pointer-events-auto">
