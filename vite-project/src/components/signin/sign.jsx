@@ -50,7 +50,7 @@ function SignInUpForm() {
         console.log("Sign-in successful:", data);
         const setItem = localStorage.setItem("userID",JSON.stringify(data.userID))
         console.log(setItem)
-        navigate('/main');
+        navigate('/start');
         setErrorMessage(''); 
       } else {
         console.error("Sign-in failed:", data.message);
@@ -95,7 +95,7 @@ function SignInUpForm() {
         <Component.OverlayContainer signinIn={signin}>
           <Component.Overlay signinIn={signin}>
             <Component.LeftOverlayPanel signinIn={signin}>
-              <Component.Title>Welcome Back User!</Component.Title>
+              <Component.Title>Welcome Back Admin!</Component.Title>
               <Component.Paragraph>
                 To keep connected with us please login with your personal info
               </Component.Paragraph>
@@ -105,7 +105,7 @@ function SignInUpForm() {
             </Component.LeftOverlayPanel>
 
             <Component.RightOverlayPanel signinIn={signin}>
-              <Component.Title>Hello, Admin!</Component.Title>
+              <Component.Title>Hello, User!</Component.Title>
               <Component.Paragraph>
                 Enter Your personal details and start your journey with us
               </Component.Paragraph>
