@@ -1,0 +1,43 @@
+<svg width="1440" height="720" viewBox="0 0 1440 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_74_85)">
+<g filter="url(#filter0_b_74_85)">
+<rect width="1440" height="1024" fill="black"/>
+</g>
+<mask id="mask0_74_85" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="0" width="1441" height="1024">
+<rect x="1.51721" width="1440" height="1024" fill="black"/>
+</mask>
+<g mask="url(#mask0_74_85)">
+<g filter="url(#filter1_b_74_85)">
+<rect x="1.51721" width="1440" height="1024" fill="black"/>
+</g>
+<ellipse cx="245" cy="678.5" rx="284" ry="261.5" fill="#68E6FF"/>
+<ellipse cx="1166" cy="10.5" rx="262" ry="243.5" fill="#5ED1FF"/>
+<g filter="url(#filter2_b_74_85)">
+<rect x="1.51721" width="1440" height="1024" fill="black" fill-opacity="0.01"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_74_85" x="-400" y="-400" width="2240" height="1824" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="200"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_74_85"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_74_85" result="shape"/>
+</filter>
+<filter id="filter1_b_74_85" x="-398.483" y="-400" width="2240" height="1824" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="200"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_74_85"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_74_85" result="shape"/>
+</filter>
+<filter id="filter2_b_74_85" x="-491.283" y="-492.8" width="2425.6" height="2009.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="246.4"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_74_85"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_74_85" result="shape"/>
+</filter>
+<clipPath id="clip0_74_85">
+<rect width="1440" height="720" fill="white"/>
+</clipPath>
+</defs>
+</svg>
